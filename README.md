@@ -310,7 +310,7 @@ const repeatString = (text = '', repetitions = 1) => {
 const repeatString = (text = '', repetitions = 1) => {
   let repeatedText = '';
   let count = 0;
-  while (count < repetitions.length) {
+  while (count < repetitions) {
     repeatedText = repeatedText + text;
     count++;
   }
@@ -329,7 +329,7 @@ const repeatString = (text = '', repetitions = 1) => {
 */
 const repeatString = (text = '', repetitions = 1) => {
   let repeatedText = '';
-  for (let count = 0; count < repetitions.length; count++) {
+  for (let count = 0; count < repetitions; count++) {
     repeatedText += text;
   }
   return repeatedText;
@@ -443,11 +443,10 @@ const repeatString = (text = '', repetitions = 1) => {
 
 1. Clone this repository:
    - `git clone git@github.com:HackYourFutureBelgium/behavior-strategy-implementation.git` (SSH)
-   - `git clone https://github.com/HackYourFutureBelgium/behavior-strategy-implementation.git` (HTTPS)
-   - `gh repo clone HackYourFutureBelgium/behavior-strategy-implementation` (GH CLI)
-1. `cd` into the repository
+2. `cd` into the repository
    - `cd behavior-strategy-implementation`
-1. Install dependencies: `npm install`
+3. Install dependencies:
+   - `npm install`
 
 ### In the Browser
 
@@ -1020,3 +1019,9 @@ Take a look at these examples/exercises, they will be helpful:
 - Week 1: [solution write-ups](https://vimeo.com/545439077), [behavior vs. strategy vs. implementation](https://vimeo.com/545440098)
 - Week 2: [about testing](https://vimeo.com/547835625), [function design](https://vimeo.com/547835556/)
 - Week 3: [code quality & code review](https://vimeo.com/551501941) By hero Thibault!
+
+## class-15
+
+> [Yildiray](https://github.com/yildiraykoyuncu), [Samir](https://github.com/samirm00), [Evan](https://github.com/colevanderswands)
+
+- Week 1: [behavior vs. strategy vs. implementation & solution write-ups](https://vimeo.com/571143720)
