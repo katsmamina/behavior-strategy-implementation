@@ -8,7 +8,6 @@
   if there was no error:
     it will pass
 
-
   it is an IMPLICIT GLOBAL DEPENDENCY
     it is used in test files without being declared
   to run test files you need a specialized test environment

@@ -2,9 +2,11 @@
   can this be refactored to an implicit return?
 */
 
-const areSameType = (value1, value2) => {
-  return typeof value1 === typeof value2;
-};
+// const areSameType = (value1, value2) => {
+//  return typeof value1 === typeof value2;
+// };
+
+const areSameType = (value1, value2) => typeof value1 === typeof value2;
 
 describe('areSameType: checks if two values have the same type', () => {
   it('should return true when both values are the same type', () => {

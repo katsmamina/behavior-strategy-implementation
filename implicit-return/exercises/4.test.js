@@ -1,6 +1,6 @@
 /*
   can this be refactored to an implicit return?
-*/
+
 
 const addOneToEach = (numbers = []) => {
   const oneBigger = [];
@@ -9,6 +9,8 @@ const addOneToEach = (numbers = []) => {
   }
   return oneBigger;
 };
+*/
+ // no? 
 
 describe('addOneToEach: adds 1 to each item in an array of numbers', () => {
   it('can add to an array of negative numbers', () => {

@@ -3,26 +3,28 @@
 describe('destructuring', () => {
   describe('types of tasty treats', () => {
     const { dry, wet } = {
-      wet: _,
+      wet: 'soup',
       dry: 'bread',
     };
     it('dry', () => {
-      expect(_).toEqual('bread');
+      expect(dry).toEqual('bread');
     });
     it('wet', () => {
       expect(wet).toEqual('soup');
     });
   });
+
   describe('a menagerie', () => {
     const hairiest = 'cheetah';
-    const oceanic = _;
+    const oceanic = 'mackerel';
     const obj = {
       [oceanic]: 'mackerel',
       running: hairiest,
     };
-    const birdy = _;
+    const birdy = 'flying'; // 
     obj[birdy] = _;
     const { swimming, flying, running } = obj;
+
     it('flying', () => {
       expect(flying).toEqual(_);
     });

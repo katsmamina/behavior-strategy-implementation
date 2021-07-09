@@ -6,7 +6,17 @@
  * @param {any} b - the second value
  * @returns {string} how similar are a and b?
  */
-const howSimilarAre = () => {};
+const howSimilarAre = (param1, param2) => {
+const equals = param1 == param2;
+let sametype = (typeof param1 === typeof param2);
+if (equals && sametype) {
+  return ('exactly the same');
+} else if (!equals && sametype) {
+  return ('the same type')
+} else {
+  return('nothing alike');
+}
+};
 
 describe('determine how similar two values are', () => {
   describe('exactly the same', () => {

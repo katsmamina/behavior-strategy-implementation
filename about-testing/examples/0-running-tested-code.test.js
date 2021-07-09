@@ -21,14 +21,12 @@
   - use VSCode's debugger
   there's more info on this in the main README's "Getting Started" section
 
-
 */
 
 // go ahead and try running these lines of code in Js Tutor, then in your debuggers:
 
-// expect(true).toEqual(true);
+expect(true).toEqual(true);
 
-// describe('hello', () => { });
+describe('hello', () => { });
 
-// it('hello', () => { });
-
+it('hello', () => { });

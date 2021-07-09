@@ -1,6 +1,6 @@
 /*
   can this be refactored to an implicit return?
-*/
+
 
 const isEven = (maybeEven = 0) => {
   if (maybeEven % 2 === 0) {
@@ -9,6 +9,9 @@ const isEven = (maybeEven = 0) => {
     return false;
   }
 };
+*/
+
+const isEven = (maybeEven = 0) => maybeEven % 2 === 0 ? true : false;
 
 describe('isEven: checks if a number is even or odd', () => {
   it('can check negative, odd numbers', () => {

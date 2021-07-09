@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * builds an array counting up from 0 to `max`
  * @param {number} [max=0] - the number to count up to
  *  max must be an integer that is greater than 0
